@@ -1,0 +1,23 @@
+.App { 
+  margin-top: 5em;
+}
+
+.parent-accordian.Mui-expanded{
+  box-shadow: none;
+}
+
+.panel-Summary{ /* align down arrow icon left */
+  flex-direction: row-reverse;
+}
+
+.Mui-expanded.panel-Summary{
+  background-color: darkcyan;
+  border-radius: 4px;
+}
+
+.panel-Summary.Mui-focusVisible{
+  background-color: darkcyan !important;
+  border-radius: 4px;
+}
+
+
